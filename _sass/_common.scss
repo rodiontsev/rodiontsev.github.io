@@ -1,0 +1,104 @@
+html, body, h1, h2, h3, h4, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100.1%;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: Avenir, "Segoe UI", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Lucida, Tahoma, sans-serif;
+    font-size: 87.5%;
+    line-height: 1.7;
+    color: #444444;
+    background-color: #F9F9F9;
+}
+
+h1, h2, h3, h4 {
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 1.5em 0 0.2em;
+}
+
+h2, h3, h4 {
+    margin: 1em 0 0.3em;
+}
+
+h1 + h2, h2 + h3, h3 + h4, h2 + h4 {
+    margin-top: 0.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+p {
+    margin-bottom: 1.33em;
+}
+
+ul {
+    list-style: none;
+}
+
+.underline {
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+a:link {
+    color: #0055CC;
+}
+
+a:link.underline {
+    border-color: #B2CCF0;
+}
+
+a:visited {
+    color: #990099;
+}
+
+a:visited.underline {
+    border-color: #E0B2E0;
+}
+
+a:visited:hover {
+    color: #CC0000;
+}
+
+a:hover {
+    color: #CC0000 !important;
+}
+
+a:hover.underline {
+    border-color: #F0B2B2 !important;
+}
+
+a.fresh {
+    color: #0055CC
+}
+
+a.fresh:hover {
+    color: #CC0000;
+}
+
+a:visited.underline.fresh {
+    border-color: #B2CCF0;
+}
